@@ -1,3 +1,64 @@
 body {
+    padding-top: 50px;
     background-color: #CBBFBB;
+    text-align: center;
+}
+
+#pic1 {
+    padding-top: 50px;
+    width:400px;
+    height: auto;
+}
+
+#pic2 {
+    padding-top: 50px;
+    width:400px;
+    height: auto;
+}
+
+#pic3 {
+    padding-top: 50px;
+    width:400px;
+    height: auto;
+}
+
+#pic6 {
+    padding-top: 50px;
+    width:400px;
+    height: auto;
+}
+
+#body1{
+    background-color:#F7D7E3;
+} 
+
+#body2{
+    background-color:#BDE0FE;
+}
+
+#body4{
+    background-color:#DBC9E6;
+}
+
+#body6{
+    background-color:#CCD5AE;
+}
+
+#body7{
+    background-color:#FAEDCD;
+}
+
+#body9{
+    background-color:#e7cdfa ;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
