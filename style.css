@@ -323,3 +323,17 @@ table {
     height: auto;
     border-radius: 10%;
 }
+
+
+#greypic {
+    width: 60px;
+    height: auto;
+    position: fixed;
+    bottom: 305px;
+    right: 30px;
+}
+
+#webring{
+    text-align: right;
+}
+    
