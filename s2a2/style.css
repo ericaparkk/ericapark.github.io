@@ -1,0 +1,44 @@
+/* ::selection {
+  background-color: red;
+} */
+
+html, body {
+    margin: 0;
+  }
+  
+  #title {
+    padding: 50px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 30vw;
+    margin-top: 15vh;
+    background-color: #FAEDCD;
+    color: white;
+    font-size: calc(40px - .5vw);
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    #center {
+      margin-left: 0vw;
+      margin-top: 0vw;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+  #fireworks{
+    width: 300px;
+    height: auto;
+  }
+
+  #guitar{
+    width: 320px;
+    height: auto;
+  }
+
+
+  #silly{
+    width: 330px;
+    height: auto;
+  }
