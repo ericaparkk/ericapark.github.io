@@ -1,22 +1,55 @@
-/* ::selection {
-  background-color: red;
-} */
-
 html, body {
     margin: 0;
+    
+  }
+
+  body {
+    background-image: url("concert.gif");
+    background-size: cover;
+  }
+
+
+  #title {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 70vw;
+    background-color: #FAEDCD;
+    color: rgb(63, 63, 65);
+    font-size: calc(40px - .5vw);
+    overflow: hidden;
+  }
+
+  #questions{
+   text-align: center;
+   margin-top: 8vw;
+   font-size:20px;
+   color: white;
+  }
+
+  #wrapper {
+    width: 100vw;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 5vw;
   }
   
-  #title {
-    padding: 50px;
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-    width: 30vw;
-    height: 70vh;
-    margin-left: 30vw;
-    margin-top: 15vh;
-    background-color: #FAEDCD;
-    color: white;
-    font-size: calc(40px - .5vw);
+  #marquee {
+    width: 10000vw;
+    position: relative;
+    left: 0vw;
+    top: 0;
+    animation: textscroll infinite 15s linear;
   }
+  
+  @keyframes textscroll {
+    from{left: 100vw;}
+    to{left: -150vw;}
+  }
+
   
   @media only screen and (max-width: 1000px) {
     #center {
@@ -27,18 +60,71 @@ html, body {
     }
   }
 
+
+ 
+
+
+
+  #heckyeah, #umno, #heckyeahduh, #sorryno, #notreally, #ok, #notreally {
+    display: none;
+  }
+  
+  #option1:checked ~ #heckyeah {
+    display: block;
+  }
+  
+  #option2:checked ~ #umno {
+    display: block;
+  }
+  
+  #heckyeahoption1:checked ~ #heckyeahduh {
+    display: block;
+  }
+  
+  #heckyeahoption2:checked ~ #sorryno {
+    display: block;
+  }
+  
+  #umnooption1:checked ~ #ok {
+    display: block;
+  }
+  
+  #umnooption2:checked ~ #notreally {
+    display: block;
+  }
+  
+
+
+
+  
   #fireworks{
-    width: 300px;
+    width: 110px;
     height: auto;
+
   }
 
   #guitar{
-    width: 320px;
+    width: 119px;
     height: auto;
   }
 
 
   #silly{
-    width: 330px;
+    width: 123px;
     height: auto;
+  }
+
+
+  #cover1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fireworks.gif");
+  }
+  
+  #cover1:target {
+    display: block;
   }
