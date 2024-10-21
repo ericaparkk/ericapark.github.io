@@ -120,11 +120,69 @@ html, body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("fireworks.gif");
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("neon.jpg");
+    
   }
   
   #cover1:target {
     display: block;
   }
+
+
+
+  #cover3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("slow.gif");
+    
+  }
+  
+  #cover3:target {
+    display: block;
+  }
+
+
+  #cover2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("mad.gif");
+    
+  }
+  
+  #cover2:target {
+    display: block;
+  }
+
+
+  #cover4 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("mad.gif");
+  }
+  
+  #cover4:target {
+    display: block;
+  }
+
