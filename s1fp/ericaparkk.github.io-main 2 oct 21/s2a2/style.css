@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    
+  }
+
+  body {
+    background-image: url("concert.gif");
+    background-size: cover;
+  }
+
+
+  #title {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    width: 50vw;
+    height: 70vw;
+    background-color: #FAEDCD;
+    color: rgb(63, 63, 65);
+    font-size: calc(40px - .5vw);
+    overflow: hidden;
+  }
+
+  #questions{
+   text-align: center;
+   margin-top: 8vw;
+   font-size:20px;
+   color: white;
+  }
+
+  #wrapper {
+    width: 100vw;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 5vw;
+  }
+  
+  #marquee {
+    width: 10000vw;
+    position: relative;
+    left: 0vw;
+    top: 0;
+    animation: textscroll infinite 15s linear;
+  }
+  
+  @keyframes textscroll {
+    from{left: 100vw;}
+    to{left: -150vw;}
+  }
+
+  
+  @media only screen and (max-width: 1000px) {
+    #center {
+      margin-left: 0vw;
+      margin-top: 0vw;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+
+ 
+
+
+
+  #heckyeah, #umno, #heckyeahduh, #sorryno, #notreally, #ok, #notreally {
+    display: none;
+  }
+  
+  #option1:checked ~ #heckyeah {
+    display: block;
+  }
+  
+  #option2:checked ~ #umno {
+    display: block;
+  }
+  
+  #heckyeahoption1:checked ~ #heckyeahduh {
+    display: block;
+  }
+  
+  #heckyeahoption2:checked ~ #sorryno {
+    display: block;
+  }
+  
+  #umnooption1:checked ~ #ok {
+    display: block;
+  }
+  
+  #umnooption2:checked ~ #notreally {
+    display: block;
+  }
+  
+
+
+
+  
+  #fireworks{
+    width: 110px;
+    height: auto;
+
+  }
+
+  #guitar{
+    width: 119px;
+    height: auto;
+  }
+
+
+  #silly{
+    width: 123px;
+    height: auto;
+  }
+
+
+  #cover1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("neon.jpg");
+    
+  }
+  
+  #cover1:target {
+    display: block;
+  }
+
+
+
+  #cover3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("slow.gif");
+    
+  }
+  
+  #cover3:target {
+    display: block;
+  }
+
+
+  #cover2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("mad.gif");
+    
+  }
+  
+  #cover2:target {
+    display: block;
+  }
+
+
+  #cover4 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 70vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-image: url("mad.gif");
+  }
+  
+  #cover4:target {
+    display: block;
+  }
+
